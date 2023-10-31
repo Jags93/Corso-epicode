@@ -7,14 +7,20 @@ body {
     background-image: url('sfondo.png'); 
     /*background-size: cover;*/ 
     background-repeat:repeat; 
+    padding: 15px;
+
     
     
 }
-#logo {padding: 10px;}
+#logo {padding: 0.1px;
+    height: 15vw;
 
-.video {border-radius: 10px;
+    margin: 30px
+}
+
+video {border-radius: 10px;
 margin: 0 auto;
-text-align: center;}
+text-align: center;} 
 
 
 #head{ text-transform: uppercase;
@@ -22,17 +28,18 @@ text-align: center;}
     color: white;
 
 }
-nav{text-decoration: none;
+nav{
 text-transform: uppercase;
 font-size: x-large;}
 
-#box {width: 450px; 
-    height: 400px;
+#box {width: auto; 
+    height: auto;
     border: 1px solid rgb(16, 174, 177);
     background-color: rgb(16, 174, 177);
     padding: 10px;
-    margin: auto;
-    margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    text-align: center;
 
 
 }
