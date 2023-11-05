@@ -1,0 +1,174 @@
+/* Your styles here */
+
+body{
+    background-color: #e9edee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{border: 1px solid black;
+    background-color: #222f3f;
+    padding-left: 1em;
+}
+
+.img{
+    width: 82px;
+}
+
+.menu{
+    border: 1px black;
+    padding-left: 1.5em;
+    color: white;
+    background-color: #364758;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    padding: 5px;
+}
+
+#container{
+padding: 2em;
+}
+
+
+
+#card{
+    margin-top: -1em;
+    border: 9px solid #f56600;
+    text-align: center;
+    background-color: #f56600;
+    color: whitesmoke;
+    margin-bottom: 2em;
+    font-size: small;
+}
+
+.guida{
+    
+    text-align: center;
+    background-image: url(bg-image.png);
+    border: 1px solid black;
+    height: 12em;
+    margin-top: -0.6em;
+    object-fit: cover;
+    
+}
+
+.scritta1{
+    margin-top: 2.4em;
+    font-size: 30px;
+    color: white;
+
+}
+.scritta2{
+    margin-top: 1em;
+    color: white;
+    font-size: small;
+}
+
+
+
+.box{
+
+    border: 1px;
+    margin-top: 2em;
+    background-color: white;
+}
+   
+span{
+    margin-left: 2.3em;
+    font-size: 11px;
+}
+
+
+#shop{
+    text-decoration: none;
+    color: #306e5f;
+    font-size: x-small;
+}
+
+
+.contenitore{
+    display: flex;
+    margin: 1em;
+}
+
+.img3 {
+
+    border-radius: 20px;
+    width: 23%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 0.6em;
+    margin: 1%;
+    box-shadow: 5px 20px 20px #d1d5d6;
+    
+}
+
+.box2{
+    margin-top: 2em;
+    text-align: center;
+
+}
+
+
+
+#vision{
+    width: 100%;
+    height: auto;
+    margin-top: -0.3em;
+}
+
+.playsound{
+    font-size: 11px;
+    
+}
+
+
+#shop2{
+    text-decoration: none;
+    color: #306e5f;
+    font-size: 8px;
+   
+    
+}
+
+.box3{
+    margin-top: 2em;
+    text-align: center;
+
+}
+
+
+
+#fine{
+    border: 1px black;
+    text-align: center;
+    color: white;
+    background-color: #364758;
+    margin-top: -1em;
+    padding-bottom: 0.4em;
+
+}
+#torna{
+    font-size: x-small;
+    color: white;
+    
+}
+
+footer{
+    border: 1px solid black;
+    background-color: #222f3f;
+    padding: 2em;
+    text-align: center;
+
+}
+#logofinale{
+
+width: 120px;
+
+}
+
+
