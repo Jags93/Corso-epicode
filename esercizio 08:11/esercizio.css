@@ -1,0 +1,22 @@
+
+
+body{
+    background-color: royalblue;
+    text-align: center;
+   
+}
+input, button{
+    font-size: 50px;
+    border-radius: 10px;
+}
+div{
+    border: 1px solid black;
+    padding: 4em;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 16em;
+}
+ ul{
+    list-style-type: none;
+ }
+ 
