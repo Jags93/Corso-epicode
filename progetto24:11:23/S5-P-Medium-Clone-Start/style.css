@@ -12,12 +12,18 @@ header {
   padding-right: 2rem;
 }
 .logo {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 2;
+  background-color: #ffc017;
+  border-bottom: solid;
+  left: 0;
+  padding: 0.5rem;
+  transition: background-color 200ms linear;
 }
 
 .lista1 {
@@ -41,6 +47,9 @@ ul li {
 .logomedium {
   width: 22%;
 }
+.box {
+  margin-top: 3rem;
+}
 hr {
   margin: 0;
 }
@@ -49,13 +58,26 @@ hr {
   display: flex;
 }
 .contenitore2 h1 {
-  font-size: 3rem;
+  font-size: 100px;
 }
+.contenitore2 > div p {
+  font-size: 22px;
+}
+
+.contenitore2 > div p,
+h1 {
+  margin-bottom: 0;
+}
+
 .hero button {
   background-color: black;
   color: white;
   border-radius: 100px;
   border: none;
+  width: 35%;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  font-size: 18px;
 }
 main {
   padding-left: 2rem;
@@ -82,6 +104,7 @@ main {
 }
 .picart {
   align-items: center;
+  width: 70%;
 }
 
 .iconeq {
@@ -106,6 +129,7 @@ div h4 {
 .box2 {
   padding-left: 2rem;
   padding-right: 2rem;
+  width: 70%;
 }
 .tit2 {
   display: flex;
@@ -113,7 +137,6 @@ div h4 {
 
   margin: 5px;
   flex-shrink: 0;
-  width: 60%;
 }
 h6 {
   font-size: 8px;
@@ -123,10 +146,33 @@ h6 {
   scale: 0.9;
   transform: translateY(60px);
 }
+.contenitorearticles {
+  display: flex;
+  width: 100%;
+}
+.sidetags {
+  width: 50%;
+}
+
 .linguaggi {
-  width: 35%;
+  position: sticky;
+  top: 80px;
+  z-index: 2;
 }
 .ling {
-  border: 1px solid;
+  border: 1px solid lightgray;
   background-color: transparent;
+  font-size: 11px;
+  margin-block: 0.2rem;
+  padding-block: 0.4rem;
+  opacity: 0.6;
+}
+.lista2 {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -2.6rem;
+  opacity: 0.6;
+  font-size: smaller;
 }
